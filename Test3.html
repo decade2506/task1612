@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>What my web could've look like</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+	* {
+	  box-sizing: border-box;
+	}
+	body {
+	  font-family: Arial, Helvetica, sans-serif;
+	}
+	header {
+		border: 3px double cyan;
+	  background-color: lavender;
+	  padding: 30px;
+	  text-align: center;
+	  font-size: 35px;
+	  color: black;
+	}
+	section {
+	  display: -webkit-flex;
+	  display: flex;
+	}
+	nav {
+	  -webkit-flex: 1;
+	  -ms-flex: 1;
+	  flex: 1;
+	  background: white;
+	  padding: 20px;
+	}
+	nav ul {
+	  list-style-type: none;
+	  padding: 20px;
+	}
+	article {
+	  -webkit-flex: 3;
+	  -ms-flex: 3;
+	  flex: 3;
+	  background-color: #f1f1f1;
+	  padding: 10px;
+	}
+	footer {
+	  background-color: lavender;
+	  padding: 10px;
+	  text-align: center;
+	  color:black;
+	  border: 3px double cyan;
+	}
+	@media (max-width: 600px) {
+	  section {
+		-webkit-flex-direction: column;
+		flex-direction: column;
+	  }
+	}
+</style>
+<body style="background-color: beige;">
+
+	<h1 align="center" style="color: LightSlateGrey">Layout thoi</h1>
+
+	<header>
+	  <h2>What my website could've look like</h2>
+	</header>
+
+	<section>
+	  <nav>
+		<ul>
+		  <li><a href="Test.html" target="iframe_a">life</a></li>
+		  <li><a href="Test2.html" target="iframe_a">plan</a></li>
+		  <li><a href="Test3.html" target="iframe_a">Made my choice</a></li>
+		</ul>
+	  </nav>
+	  
+	  <article  style="background-color: black">
+		<iframe src="Test.html" name="iframe_a" height="1250px" width="1260px" align="right"></iframe>'
+	  </article>
+	</section>
+
+	<footer>
+	  <p style="font-size: 50px;" align="center">&copy; Copyright</p>
+	</footer>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HELLO</title>
+		<meta charset="UTF-8">
+	</head>
+	<!-- Dinh dang cai thanh ben(sidebar) -->
+	<style>
+		.sidebar{
+			position: fixed;
+			left: 0;
+			bottom: 0;
+			top: 0px;
+			background-color: CadetBlue;
+			width: 72px;
+			z-index: 200;
+			padding-top: 5px;
+		}
+		.sidebar-link{
+			height: 74px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			cursor: pointer;
+		}
+		.sidebar-link:hover{
+			background-color: rgb(235,235,235);
+		}
+		.sidebar-link img{
+			height: 24px;
+			margin-bottom: 4px;
+		}
+		.sidebar-link div{
+			font-size: 15px;
+		}
+		.sidebar-link:active {
+		  background-color: tomato;
+		  color: white;
+		  opacity: 0.5;
+		}
+		.rainbow-text {
+			background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+		  -webkit-background-clip: text;
+		  -webkit-text-fill-color: transparent;
+		}
+	</style>
+	<body style="background-color: black">
+	<h1 align="center" class="rainbow-text" style="font-size: 80px">A B S O L U T E  C H A O S</h1>
+	<div>
+		<div class="sidebar">
+		<a class="active" target="iframe_a" href="Test.html" title="LIFE">
+		<div class="sidebar-link">
+			<div>&#128341;</div>
+		</div>
+		</a>
+		<a class="active" target="iframe_a" href="Test2.html" title="Math???">
+		<div class="sidebar-link">
+			<div>&#129504;</div>
+		</div>
+		</a>
+		<a class="active" target="iframe_a" href="Test3.html" title="Old">
+		<div class="sidebar-link">
+			<div>&#129491;</div>
+		</div>
+		</a>
+		<a class="active" target="iframe_a" href="Test4.html" title="Form">
+		<div class="sidebar-link">
+			<div>&#128196;</div>
+		</div>
+		</a>
+		<a class="active" target="iframe_a" href="Test5.html" title="Great Guy">
+		<div class="sidebar-link">
+			<div>&#128100;</div>
+		</div>
+		</a>
+		<!-- Nil de phong ho xem co chi them vos -->
+		<div class="sidebar-link">
+			<div>Nil</div>
+		</div>
+	</div>
+	<iframe src="Test.html" name="iframe_a" height="1250px" width="1260px" align="right"></iframe>'
+	</div>
+	<body>
+</html>

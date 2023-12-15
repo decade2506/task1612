@@ -1,0 +1,31 @@
+p{
+	font-size: 26px;
+	text-align: center;
+	margin: 20px;
+}
+div {
+	border: 5px double SlateBlue;
+	margin-bottom: 25px;
+	margin-top: 30px;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	overflow: auto;
+}
+.p1{
+	color: white;
+}
+.p2{
+	color: cyan;
+}
+.p3{
+	color: DodgerBlue;
+	font-size: 68px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-decoration-line: underline;
+	text-shadow: 6px 6px 9px black;
+}
+body{
+	border: 2px solid black;
+	padding-bottom: 1280px;
+}
